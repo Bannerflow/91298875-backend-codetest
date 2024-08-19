@@ -29,7 +29,8 @@
          "baseCurrency":"NOK",
          "numberOfShares":20000
       }
-   ]
+   ],
+   "isDeleted":false
 }
 {
    "_id":{
@@ -62,5 +63,6 @@
          "baseCurrency":"NOK",
          "numberOfShares":100000
       }
-   ]
+   ],
+    "isDeleted":false
 }
