@@ -12,6 +12,10 @@ namespace CodeTest.Infrastructure.Models
         public float CurrentTotalValue { get; set; }
         [BsonElement("stocks")]
         public ICollection<StockData> Stocks { get; set; }
+
+        //soft delete
+        [BsonElement("isDeleted")]
+        public bool IsDeleted { get; set; }
     }
 
     public class StockData
